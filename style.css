@@ -1,0 +1,57 @@
+:root {
+    --cor-1: #136B53;
+    --cor-2: #43967F;
+    --cor-3: #267f6765;
+    --cor-4: #003728; 
+}
+
+body{
+    background-color: var(--cor-1);
+    margin: 0px;
+    margin-bottom: 10px;
+        
+}
+
+#navegacao{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    position: fixed;
+    overflow: auto;
+}
+.menuItem{
+    display: block;
+    width: 130px;
+    height: 50px;
+    background-color:var(--cor-4) ; 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.menuItem:hover{
+    background-color: var(--cor-2);
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+#contato{
+    
+    margin: auto;
+    width: 290px;
+    height: 50px;
+}
+h5,p{
+    background-color: var(--cor-3);
+    margin: 0px;
+}
